@@ -14,7 +14,7 @@ class ToIrado:
         return ToIrado(*(x + y for x, y in zip(self.problema, other.problema)))
 
 
-
+# ------------------------
 if __name__ == '__main__':
     paz1 = ToIrado(1, 2, 3)     #  x² + 2x + 3
     paz2 = ToIrado(3, 2, 1)     # 3x² + 4x + 3
